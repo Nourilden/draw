@@ -1,0 +1,14 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden; /* Prevent scrollbars */
+}
+
+canvas {
+    display: block; /* Remove default inline spacing */
+    width: 100vw;   /* Make the canvas cover the full width of the viewport */
+    height: 100vh;  /* Make the canvas cover the full height of the viewport */
+    cursor: crosshair; /* Use a crosshair cursor for drawing */
+}
